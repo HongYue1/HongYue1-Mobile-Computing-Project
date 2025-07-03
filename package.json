@@ -1,0 +1,46 @@
+{
+  "name": "hh-ng",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/metro-runtime": "~5.0.4",
+    "@expo/vector-icons": "^14.1.0",
+    "@react-native-async-storage/async-storage": "^2.2.0",
+    "@react-native-community/cli": "^18.0.0",
+    "@react-native/metro-config": "^0.79.2",
+    "@react-navigation/bottom-tabs": "^7.3.12",
+    "@react-navigation/native": "*",
+    "@react-navigation/native-stack": "*",
+    "date-fns": "^4.1.0",
+    "expo": "^53.0.16",
+    "expo-blur": "^14.1.4",
+    "expo-font": "~13.3.1",
+    "expo-linear-gradient": "^14.1.5",
+    "expo-status-bar": "^2.2.3",
+    "expo-system-ui": "^5.0.10",
+    "firebase": "^11.10.0",
+    "prop-types": "^15.8.1",
+    "react": "19.0.0",
+    "react-dom": "^19.1.0",
+    "react-native": "^0.79.5",
+    "react-native-chart-kit": "^6.12.0",
+    "react-native-maps": "^1.20.1",
+    "react-native-responsive-dimensions": "^3.1.1",
+    "react-native-safe-area-context": "*",
+    "react-native-screens": "^4.11.1",
+    "react-native-svg": "^15.12.0",
+    "react-native-uuid": "^2.0.3",
+    "react-native-web": "^0.20.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true,
+  "license": "MIT"
+}
